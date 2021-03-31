@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head >
+
+  
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+    <title>MySong</title>
+</head>
+
+<body >
+    <?php
+    $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+    $txt = "Mickey Mouse\n";
+    fwrite($myfile, $txt);
+    $txt = "Minnie Mouse\n";
+    fwrite($myfile, $txt);
+    fclose($myfile);
+    echo "My first PHP script!";
+    ?>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/index.css" >
+    <title>MySong</title>
+</head>
+<body>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+		
+		
+		/*Barra di ricerca*/
+        #myInput {
+		  background-color: #333333;
+          background-position: 10px 12px;
+          background-repeat: no-repeat;
+		  width: 100%;
+		  color: #adadad;
+          font-size: 16px;
+          padding: 12px 20px 12px 40px;
+          border: 1px solid #333333;
+        }
+		
+        </style>
+
+	<a href="../index.html"><h1>RICERCA</h1></a>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cerca la canzone..." title="Type in a name">
+	
+	
+    <ul id="myUL">
+		<!--INGRESSO-->
+		<a class="atitle">- INGRESSO</a><br>
+		<li><a href="../canzoni/ingresso/1apri.html">1) Apri le tue braccia</a></li>
+		<li><a href="../canzoni/ingresso/2camminiamo.html">2) Camminiamo incontro <br>al signore</a></li>
+		<li><a href="../canzoni/ingresso/3chiama.html">3) Chiama la vita</a></li>
+		<li><a href="../canzoni/ingresso/4ci.html">4) Ci inviti alla tua festa</a></li>
+		<li><a href="../canzoni/ingresso/5come.html">5) Come la pioggia <br>e la neve</a></li>
+		<li><a href="../canzoni/ingresso/6dal.html">6) Dal tronco di Iesse</a></li>
+		<li><a href="../canzoni/ingresso/7dall.html">7) Dall’aurora al tramonto</a></li>
+		<li><a href="../canzoni/ingresso/8incontro.html">8) E l’incontro della vita</a></li>
+		<li><a href="../canzoni/ingresso/9esultiamo.html">9) Esultiamo in Dio</a></li>
+		<li><a href="../canzoni/ingresso/10gloria.html">10) Gloria a te, Cristo Gesù</a></li>
+		<li><a href="../canzoni/ingresso/11inno.html">11) Inno allo Spirito Santo</a></li>
+		<li><a href="../canzoni/ingresso/12dimora.html">12) La tua dimora</a></li>
+		<li><a href="../canzoni/ingresso/13mar.html">13) Maranathà</a></li>
+		<li><a href="../canzoni/ingresso/14noi.html">14) Noi veniamo a te </a></li>
+		<li><a href="../canzoni/ingresso/15ora.html">15) Ora siamo arrivati</a></li>
+		<li><a href="../canzoni/ingresso/16osanna.html">16) Osanna al figlio <br> di David</a></li>
+		<li><a href="../canzoni/ingresso/17scusa.html">17) Scusa Signore</a></li>
+		<li><a href="../canzoni/ingresso/18vieni.html">18) Vieni Spirito di Cristo</a></li>
+		<li><a href="../canzoni/ingresso/19bello.html">19) È bello stare insieme<br> a te</a></li>
+		<li><a href="../canzoni/ingresso/20svegliati.html">20) Svegliati, Sion!</a></li>
+		<li><a href="../canzoni/ingresso/21prepariamo.html">21) Prepariamo la via </a></li>
+		<li><a href="../canzoni/ingresso/22venite.html">22) Venite acclamiamo </a></li>
+		<li><a href="../canzoni/ingresso/23oggi.html">23) Oggi Annunciamo<br> la gioia</a></li>
+		<li><a href="../canzoni/ingresso/24ci.html">24) Ci è stato dato un<br> figlio</a></li>
+		<li><a href="../canzoni/ingresso/25sale.html">25) Sale della terra</a></li>
+		<!--OFFERTORIO-->
+		
+		<br><a>- OFFERTORIO</a><br>
+
+		<li><a href="../canzoni/offertorio/1benedici.html">1) Benedici o Signore</a></li>
+	    <li><a href="../canzoni/offertorio/2davanti.html">2) Davanti a te</a></li>
+	    <li><a href="../canzoni/offertorio/3donaci.html">3) Donaci te stesso</a></li>
+	    <li><a href="../canzoni/offertorio/4frutto.html">4) Frutto della <br>nostra terra</a></li>
+	    <li><a href="../canzoni/offertorio/5io.html">5) Io non sono degno</a></li>
+	    <li><a href="../canzoni/offertorio/6noi.html">6) Noi con te</a></li>
+	    <li><a href="../canzoni/offertorio/7prendi.html">7) Prendi la mia vita </a></li>
+	    <li><a href="../canzoni/offertorio/8segni.html">8) Segni del tuo amore</a></li>
+	    <li><a href="../canzoni/offertorio/9servo.html">9) Servo per amore</a></li>
+	    <li><a href="../canzoni/offertorio/10su.html">10) Su ali d’aquila</a></li>
+	    <li><a href="../canzoni/offertorio/11sull.html">11) Sull’altare del mondo </a></li>
+	    <li><a href="../canzoni/offertorio/12venite.html">12) Venite dal profondo </a></li>
+	    <li><a href="../canzoni/offertorio/13vieni.html">13) Vieni popolo mio</a></li>
+	    <li><a href="../canzoni/offertorio/14luce.html">14) Luce in noi</a></li>
+	    <li><a href="../canzoni/offertorio/15come.html">15) Come tanti fiumi</a></li>
+	    <li><a href="../canzoni/offertorio/16apri.html">16) Apri la tua mano</a></li>
+	    <li><a href="../canzoni/offertorio/17beato.html">17) Beato chi teme <br>il signore</a></li>
+	    <li><a href="../canzoni/offertorio/18liberami.html">18) Liberami <br>“Kantiere Kairos” </a></li>
+	    <li><a href="../canzoni/offertorio/19servire.html">19) Servire è Regnare</a></li>
+	    <li><a href="../canzoni/offertorio/20il.html">20) Il figlio ritrovato</a></li>
+		<li><a href="../canzoni/offertorio/21.html">21) Come fuoco vivo</a></li>
+		<li><a href="../canzoni/offertorio/22.html">22) Sei dono per noi </a></li>
+		<!--PACE-->
+	
+		<br><a>- PACE</a><br>
+
+		<li><a href="../canzoni/pace/1come.html">1) Come è bello</a></li>
+		<li><a href="../canzoni/pace/2evenu.html">2) Evenu Shalom</a></li>
+		<li><a href="../canzoni/pace/3nel.html">3) Nel Signore io ti <br>do la pace</a></li>
+		<li><a href="../canzoni/pace/4pace.html">4) Pace a te – Serapiglia</a></li>
+		<li><a href="../canzoni/pace/5pace.html">5) Pace sia, pace a voi</a></li>
+		<!--COMUNIONE-->
+	
+		<br><a>- COMUNIONE</a><br>
+
+	
+		<li><a href="../canzoni/comunione/1.html">1) Abbracciami</a></li>
+		<li><a href="../canzoni/comunione/2.html">2) Alle societate</a></li>
+		<li><a href="../canzoni/comunione/3.html">3) Amatevi fratelli</a></li>
+		<li><a href="../canzoni/comunione/4.html">4) Apri gli occhi</a></li>
+		<li><a href="../canzoni/comunione/5.html">5) Beati voi</a></li>
+		<li><a href="../canzoni/comunione/6.html">6) Come tu mi vuoi </a></li>
+		<li><a href="../canzoni/comunione/7.html">7) Dico si </a></li>
+		<li><a href="../canzoni/comunione/8.html">8) Dio aprirà una via</a></li>
+		<li><a href="../canzoni/comunione/9.html">9) Dio fammi strumento</a></li>
+		<li><a href="../canzoni/comunione/10.html">10) E sono solo un uomo</a></li>
+		<li><a href="../canzoni/comunione/11.html">11) Erano un cuore solo</a></li>
+		<li><a href="../canzoni/comunione/12.html">12) Fratello Sole e sorella Luna</a></li>
+		<li><a href="../canzoni/comunione/13.html">13) Il disegno</a></li>
+		<li><a href="../canzoni/comunione/14.html">14) Invochiamo la Tua presenza </a></li>
+		<li><a href="../canzoni/comunione/15.html">15) Lui verrà e ti salverà</a></li>
+		<li><a href="../canzoni/comunione/16.html">16) Mi insegnerai ad amare</a></li>
+		<li><a href="../canzoni/comunione/17.html">17) Mi pensamiento </a></li>
+		<li><a href="../canzoni/comunione/18.html">18) Nella tua presenza </a></li>
+		<li><a href="../canzoni/comunione/19.html">19) Ora che sei in mezzo a noi </a></li>
+		<li><a href="../canzoni/comunione/20.html">20) Ora è tempo di gioia </a></li>
+		<li><a href="../canzoni/comunione/21.html">21) Pane del cielo</a></li>
+		<li><a href="../canzoni/comunione/22.html">22) Prenderemo il largo</a></li>
+		<li><a href="../canzoni/comunione/23.html">23) Sei per noi cibo di eternità</a></li>
+		<li><a href="../canzoni/comunione/24.html">24) Sono qui a lodarti</a></li>
+		<li><a href="../canzoni/comunione/25.html">25) Tieni viva la tua fiamma</a></li>
+		<li><a href="../canzoni/comunione/26.html">26) Tu al centro del mio cuore</a></li>
+		<li><a href="../canzoni/comunione/27.html">27) Tu sei </a></li>
+		<li><a href="../canzoni/comunione/28.html">28) Verbum panis</a></li>
+		<li><a href="../canzoni/comunione/29.html">29) Vi amo così</a></li>
+		<li><a href="../canzoni/comunione/30.html">30) Vieni e seguimi</a></li>
+		<li><a href="../canzoni/comunione/31.html">31) Vieni Santo Spirito </a></li>
+		<li><a href="../canzoni/comunione/32.html">32) Vivere la vita</a></li>
+		<li><a href="../canzoni/comunione/33.html">33) Voglio stare accanto a te </a></li>
+		<li><a href="../canzoni/comunione/34.html">34) Tu sei – A. Beltrami </a></li>
+		<li><a href="../canzoni/comunione/35.html">35) E’ tempo di grazia</a></li>
+		<li><a href="../canzoni/comunione/36.html">36) Mi affido a te </a></li>
+		<li><a href="../canzoni/comunione/37.html">37) La Tua volontà</a></li>
+		<li><a href="../canzoni/comunione/38.html">38) Come è bello </a></li>
+		<li><a href="../canzoni/comunione/39.html">39) Voce del mio canto</a></li>
+		<li><a href="../canzoni/comunione/40.html">40) Re di gloria</a></li>		
+		<li><a href="../canzoni/comunione/41.html">41) Quale gioia</a></li>
+		<li><a href="../canzoni/comunione/42.html">42) C’è qualcuno che mi ama</a></li>
+		<li><a href="../canzoni/comunione/43.html">43) Tempo di salvezza </a></li>
+		<li><a href="../canzoni/comunione/44.html">44) Re dei Re</a></li>
+		<li><a href="../canzoni/comunione/45.html">45) Beati voi</a></li>
+		<li><a href="../canzoni/comunione/46.html">46) Resta con noi Signore <br>(F. Baggio)</a></li>
+		<!--FINALE-->
+	
+		<br><a>- FINALE</a><br>
+
+	
+		<li><a href="../canzoni/finale/1.html">1) Al centro del presente</a></li>
+	    <li><a href="../canzoni/finale/2.html">2) Andate per le strade</a></li>
+	    <li><a href="../canzoni/finale/3.html">3) Cantiamo con gioia al nostro Dio</a></li>
+	    <li><a href="../canzoni/finale/4.html">4) Come terra buona</a></li>
+	    <li><a href="../canzoni/finale/5.html">5) Controcorrente</a></li>
+	    <li><a href="../canzoni/finale/6.html">6) Costellazioni</a></li>
+	    <li><a href="../canzoni/finale/7.html">7) E’ bello lodarti</a></li>
+	    <li><a href="../canzoni/finale/8.html">8) La giusta direzione</a></li>
+	    <li><a href="../canzoni/finale/9.html">9) Le tue meraviglie </a></li>
+	    <li><a href="../canzoni/finale/10.html">10) Life, love, light</a></li>
+	    <li><a href="../canzoni/finale/11.html">11) Noi</a></li>
+	    <li><a href="../canzoni/finale/12.html">12) Resta qui con noi</a></li>
+	    <li><a href="../canzoni/finale/13.html">13) Rispondere all’amore si può</a></li>
+	    <li><a href="../canzoni/finale/14.html">14) Se hai un cuore grande</a></li>
+	    <li><a href="../canzoni/finale/15.html">15) Ti ringrazio mio Signore </a></li>
+	    <li><a href="../canzoni/finale/16.html">16) Un fiume di felicità </a></li>
+	    <li><a href="../canzoni/finale/17.html">17) Ricominciare ancora</a></li>
+	    <li><a href="../canzoni/finale/18.html">18) Se siamo uniti</a></li>
+	    <li><a href="../canzoni/finale/19.html">19) E’ tempo di annunciare </a></li>
+		<!--ADORAZIONE-->
+	
+		<br><a>- ADORAZIONE</a><br>
+
+
+		<li><a href="../canzoni/adorazione/1.html">1) Adoro te</a></li>
+		<li><a href="../canzoni/adorazione/2.html">2) Come la pioggia <br>e la neve</a></li>
+		<li><a href="../canzoni/adorazione/3.html">3) Come tu mi vuoi </a></li>
+		<li><a href="../canzoni/adorazione/4.html">4) Invochiamo la tua presenza</a></li>
+		<li><a href="../canzoni/adorazione/5.html">5) Nella tua presenza</a></li>
+		<li><a href="../canzoni/adorazione/6.html">6) Popoli tutti</a></li>
+		<li><a href="../canzoni/adorazione/7.html">7) Tu al centro del mio cuore</a></li>
+		<li><a href="../canzoni/adorazione/8.html">8) Verbum panis</a></li>
+		<li><a href="../canzoni/adorazione/9.html">9) Luce in noi</a></li>
+		<li><a href="../canzoni/adorazione/10.html">10) Mi affido a te </a></li>
+		<!--CANTI MARIANI-->
+	
+		<br><a>- CANTI MARIANI</a><br>
+
+
+		<li><a href="../canzoni/mariani/1.html">1) Giovane donna</a></li>
+	    <li><a href="../canzoni/mariani/2.html">2) Come Maria </a></li>
+	    <li><a href="../canzoni/mariani/3.html">3) Magnificat</a></li>
+	    <li><a href="../canzoni/mariani/4.html">4) Il Magnificat (G.Verde)</a></li>
+	    <li><a href="../canzoni/mariani/5.html">5) Santa Maria del cammino</a></li>
+	    <li><a href="../canzoni/mariani/6.html">6) Batte Batte</a></li>
+	    <li><a href="../canzoni/mariani/7.html">7) Maria voglio amarti</a></li>
+	    <li><a href="../canzoni/mariani/8.html">8) Canto a te Maria</a></li>
+	    <li><a href="../canzoni/mariani/9.html">9) Maria Tu sei</a></li>
+	    <li><a href="../canzoni/mariani/10.html">10) Ave Maria (P.Ettore)</a></li>
+	    <li><a href="../canzoni/mariani/11.html">11) Ave Maria Verbum Panis</a></li>
+	    <li><a href="../canzoni/mariani/12.html">12) Dell’aurora tu sorgi più bella </a></li>
+
+		<!--GMG-->
+		
+		<br><a>- GMG</a><br>
+
+		
+		<li><a href="../canzoni/gmg/1.html">1) One body </a></li>
+		<li><a href="../canzoni/gmg/2.html">2) Emmanuel </a></li>
+		<li><a href="../canzoni/gmg/3.html">3) Lumier du monde </a></li>
+		<li><a href="../canzoni/gmg/4.html">4) Venimus adorare eum</a></li>
+		<li><a href="../canzoni/gmg/5.html">5) Recive the power</a></li>
+		<li><a href="../canzoni/gmg/6.html">6) Firmes en la fe </a></li>
+		<li><a href="../canzoni/gmg/7.html">7) Speranza che sorge</a></li>
+		<li><a href="../canzoni/gmg/8.html">8) Beato il cuore che perdona</a></li>
+		<li><a href="../canzoni/gmg/9.html">9) Per me si compia la Tua Parola</a></li>
+	
+		<br><a>- NATALE</a><br>
+		
+		<li><a href="../canzoni/natale/1.html">1) Adesso è la pienezza</a></li>
+		<li><a href="../canzoni/natale/2.html">2) Astro del ciel </a></li>
+		<li><a href="../canzoni/natale/3.html">3) Dio è con noi </a></li>
+		<li><a href="../canzoni/natale/4.html">4) E’ nato alleluia! </a></li>
+		<li><a href="../canzoni/natale/5.html">5) Nasce l’amor </a></li>
+		<li><a href="../canzoni/natale/6.html">6) Tu scendi dalle stelle </a></li>
+		<li><a href="../canzoni/natale/7.html">7) Tu un giorno </a></li>
+		<li><a href="../canzoni/natale/8.html">8) Venimus adorare eum </a></li>
+		<li><a href="../canzoni/natale/9.html">9) Venite fedeli </a></li>
+		<li><a href="../canzoni/natale/10.html">10) E’ Natale <br> Forza Venite Gente </a></li>
+		<li><a href="../canzoni/natale/11.html">11) Oggi Annunciamo la gioia  </a></li>
+		<li><a href="../canzoni/natale/12.html">12) Ci è stato dato un figlio </a></li>
+		<li><a href="../canzoni/natale/13.html">13) Oggi è nato il Salvatore </a></li>	
+		<li><a href="../canzoni/natale/14.html">14) Noi apriami il nostro cuore a te </a></li>
+		<li><a href="../canzoni/natale/15.html">15) Luce che sorgi nella notte</a></li>
+		<li><a href="../canzoni/natale/16.html">16) Nascette lu Messia </a></li>
+		<li><a href="../canzoni/natale/17.html">17) Alleluia - una luce splendida</a></li>
+		
+		<br><a>- PASQUA</a><br>
+
+		<li><a href="../canzoni/pasqua/1.html">1) Cristo e' risorto</a></li>
+		<li><a href="../canzoni/pasqua/2.html">2) Alleluia, Cristo e' risorto veramente </a></li>
+		<li><a href="../canzoni/pasqua/3.html">3) Resurrezione</a></li>
+		<li><a href="../canzoni/pasqua/4.html">4) Esulta il cielo </a></li>
+		<li><a href="../canzoni/pasqua/5.html">5) Sospinti dallo spirito </a></li>
+        <li><a href="../canzoni/pasqua/6.html">6) Rallegriamoci in Lui </a></li>
+
+	</ul>
+	
+    <script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    </script>
+	
+</body>
+</html>
+
+</html>
